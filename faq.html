@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kent - FAQ</title>
+<link rel="stylesheet" href="StyleF.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-item">
+        <h3>How do I build a strong professional network in the IT industry?</h3>
+        <div class="faq-answer">
+            <p>Attend networking events, join professional organizations, participate in online forums, and connect with professionals on platforms like LinkedIn. Networking can open doors to job opportunities and collaborations.
+            </p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <h3>What programming languages should I learn?</h3>
+        <div class="faq-answer">
+            <p>This depends on your career goals and interests. Common languages include Python, Java, JavaScript, C++, and SQL. Research the demands of the field you're interested in to prioritize languages.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <h3>What career paths can I pursue with an IT degree?</h3>
+        <div class="faq-answer">
+            <p>IT offers a wide range of career opportunities including software development, cybersecurity, data analysis, network administration, IT consulting, and more.</p>
+        </div>
+    </div>
+</div>
+<div class="back-button">
+    <a href="index.html">Back to Home</a>
+</div>
+</div>
+</div>
+
+<script>
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        item.addEventListener('click', () => {
+            item.classList.toggle('active');
+        });
+    });
+</script>
+
+</body>
+</html>
